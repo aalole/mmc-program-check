@@ -3482,7 +3482,7 @@ select::-ms-expand {
         EVERY PAGE TITLE AREA (WITHOUT SLIDER)     
 ******************************************/
 .testmonial-title-bg{
-    background: url(../images/page-titles/testmonial.jpg);
+    background: url(...images/mmcImages/caf2.jpg);
 }
 .about-us-page-title-bg{
     background: url(../images/page-titles/about-us-1.jpg);  
@@ -7328,4 +7328,71 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
 }
 .rev-margin{
     margin-top: 170px!important;
+}
+/*****************************************
+       INDEX MODIFIED   
+******************************************/
+
+.mmc-welcome{
+    text-align: center;
+    font-size: 50 !important;
+    font-weight: 500;
+}
+.mmc-bio{
+    font-size: 30 !important;
+    font-weight: 500;
+    color: #000000 !important;
+}
+.post-events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.post-events-card{
+    display: flex;
+    justify-content: space-between;
+}
+.post-events-card p{
+    color: #000000;
+    line-height: 14px;
+}
+.post-events-heading{
+    font-weight: bold;
+}
+.post-events-date{
+    color: #a1783b;
+}
+.posts-only{
+    background-color: #ffffff;
+}
+.events-only{
+    background-color: #ffffff;
+}
+.black-btn{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+.black-btn:hover{
+    background-color: #a1783b;
+}
+a .black-btn{
+    color: #ffffff;
+    font-weight: bold;
+}
+a .black-btn:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.social-container{
+    background-color: #f9a602 !important;
+    border-color: #ffffff !important;
+}
+.footer-cols{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }

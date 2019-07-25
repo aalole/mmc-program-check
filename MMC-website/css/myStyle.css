@@ -1,0 +1,20 @@
+.Title-area:before {
+    
+    background: transparent;
+}
+
+.team-describe-content span {
+    text-align: center;
+    color: #fff;
+}
+
+.reduce-padding {
+    
+    padding-top: 0;
+}
+
+.mytitle-padding {
+    
+    padding-bottom: 40px;
+    
+}

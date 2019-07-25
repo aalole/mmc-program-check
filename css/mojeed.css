@@ -1,0 +1,53 @@
+.search-form input {
+    background-color: #F0931A;
+}
+
+.bd-red {
+    border: 1px red solid;
+}
+
+.footer-bottom {
+    background-color: #222222;
+}
+
+.center .single-feature-inner {
+    border: 4px solid #F0931A;
+
+}
+
+.single-feature-inner img {
+    margin-bottom: 20px;
+}
+
+.feature-carousel button.owl-dot.active {
+    background: #F0931A !important;
+}
+
+.single-blog-inner .post-details .blog-btn:hover,
+.single-blog-inner .post-details .blog-btn{
+    color: #F0931A;
+}
+
+.single-blog-inner .post-info  a {
+    color: rgb(238, 190, 128);
+}
+
+.single-blog-inner .post-info  a + a:before{
+    background: rgb(243, 192, 126);
+}
+
+.single-blog-inner .post-details .blog-btn:after {
+    background: #F0931A;
+}
+
+a:hover { 
+    color: #F0931A; 
+}
+
+.single-blog-inner .post-title h3:hover a{
+    color: #F0931A;
+}
+
+.single-blog-inner .post-details a:hover{
+    color: #F0931A;
+}
