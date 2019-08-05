@@ -389,7 +389,6 @@ p{
     width: 1px;
     left: 0;
 }
-.menuzord-menu > li > {}
 .menuzord-menu > li > a {
     padding: 17px 12px 33px 12px; 
     display: inline-block;
@@ -1478,7 +1477,7 @@ p{
 }
 .t-b-img div{
 	position: absolute;
-	background: #d5aa6d;
+	background: #f9a602;
 	text-align: center;
 	left: 20px;
 	top: 20px;
@@ -2216,10 +2215,13 @@ select::-ms-expand {
     position: relative;
     top: 2px;
 }
+.h-2-p-c-default > a i:hover{
+    color: #f9a602;
+}
 
 .h-2-p-c-default:hover *:not(p){
 
-    color: #d5aa6d;
+    color: #f9a602;
     -webkit-transition: all .5s;
     -o-transition: all .5s;
     -mz-transition: all .5s;
@@ -6306,7 +6308,6 @@ background: url(../images/page-title-v5.jpg);
     height: auto;
     background: transparent;
 }
-.separator-Title-7 span{}
 .separator-Title-7 span i{
     font-size: 28px;
     color: #d5aa6d;
@@ -6878,7 +6879,6 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
     margin-bottom: 20px;
     margin-top: 30px;    
 }
-.shop-share-product span{}
 .shop-share-product span a{
     width: 35px;
     height: 35px;
@@ -6904,7 +6904,6 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
     border-style: solid;
     border-width: 1px 1px 0;
 }
-.s-tab-head{}
 .s-tab-head li{
     padding: 0;
     border: none;
@@ -7209,7 +7208,6 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
     font-size: 14px;
     font-weight: 400;
 }
-.shop-select{}
 .shop-select span{
     position: absolute;
     top: 15px;
@@ -7219,7 +7217,6 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
     font-size: 13px;
     color: #b8b8b8;
 }
-.shop-select-2{}
 .shop-select-2 input{
     background: transparent!important;
     border-radius: 0px!important;
@@ -7370,14 +7367,15 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
     background-color: #ffffff;
 }
 .black-btn{
-    background-color: #000000;
-    color: #ffffff;
+    /* background-color: #000000; */
+    color: #000 !important;
     border: none;
     width: 100px;
     height: 40px;
 }
 .black-btn:hover{
-    background-color: #a1783b;
+    background-color: #f9a602;
+    color: #fff !important;
 }
 a .black-btn{
     color: #ffffff;
@@ -7385,7 +7383,7 @@ a .black-btn{
 }
 a .black-btn:hover{
     text-decoration: none;
-    color: #000000;
+    color: #fff;
 }
 .social-container{
     background-color: #f9a602 !important;
