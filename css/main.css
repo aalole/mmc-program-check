@@ -7338,7 +7338,7 @@ select.form-control, select.form-control:hover, select.form-control:focus, selec
 .mmc-bio{
     font-size: 30 !important;
     font-weight: 500;
-    color: #000000 !important;
+    color: #9b9b9b !important;
 }
 .post-events{
     display: flex;
@@ -7393,4 +7393,10 @@ a .black-btn:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+body{
+    overflow-x: hidden;
+}
+.padded {
+    margin-left: 10px;
 }
